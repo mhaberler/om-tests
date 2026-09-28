@@ -1,0 +1,17 @@
+{
+  "name": "om-tests",
+  "version": "1.0.0",
+  "description": "Query DWD ICON global 10m wind (speed + direction, computed from u/v components) for a given lat/lon/time, reading directly from Open-Meteo's public S3 mirror (`s3://openmeteo/data_run/dwd_icon/...`) — no API call.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "profile": "node icon_wind_profile.mjs --lat 47.1333 --lon 15.2167"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@openmeteo/file-reader": "^0.0.19"
+  }
+}
